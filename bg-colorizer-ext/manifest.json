@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Background colorizer",
+    "version": "0.1",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "color-worker.js"
+    },
+    "action": {
+        "default_title": "Change color",
+        "default_popup": "color-popup.html"
+    }
+}
